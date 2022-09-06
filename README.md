@@ -8,4 +8,4 @@
 5. set the shorcut properties to run minimized and set the icon to the Fortnite executable (optional).
 
 ## result:
-[image](image.PNG)
+[fortnite folder](image.PNG), [shortcut properties](image2.PNG)
