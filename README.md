@@ -1,7 +1,6 @@
 # fortnite-launch-script
-automatically runs fortnite and keys2xinput, then kills all epic games processes once fortnite is launched.
 
-setup-
+setup:
 1. download launch.cmd to your Fortnite install folder.
 2. cut and paste the Fortnite internet shorcut on your desktop to your Fortnite install folder.
 3. cut and paste the Keys2XInput shortcut on your desktop to your Fortnite install folder.
