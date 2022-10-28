@@ -8,4 +8,5 @@ GOTO :search
 
 :found
 taskkill /F /IM EpicGamesLauncher.exe
+taskkill /F /IM EpicWebHelper.exe
 exit
