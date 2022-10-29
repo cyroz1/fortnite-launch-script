@@ -9,4 +9,5 @@ GOTO :search
 :found
 taskkill /F /IM EpicGamesLauncher.exe
 taskkill /F /IM EpicWebHelper.exe
+taskkill /F /IM CrashReportClient.exe
 exit
