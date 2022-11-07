@@ -1,4 +1,4 @@
-start Fortnite.url
+Fortnite.url
 
 :search
 tasklist|find "FortniteClient-Win64-Ship"
