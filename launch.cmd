@@ -1,4 +1,4 @@
-Fortnite.url
+start "" "com.epicgames.launcher://apps/Fortnite?action=launch&silent=true"
 
 :search
 tasklist|find "FortniteClient-Win64-Ship"
