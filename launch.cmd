@@ -1,12 +1,12 @@
 start "" "com.epicgames.launcher://apps/Fortnite?action=launch&silent=true"
 
 :search
-tasklist|find "FortniteClient-Win64-Ship"
+"%SystemRoot%\System32\tasklist.exe" /FI "IMAGENAME eq FortniteClient-Win64-Shipping.exe" /FO CSV /NH | "%SystemRoot%\System32\find.exe" "FortniteClient-Win64-Shipping.exe"
 IF %ERRORLEVEL% == 0 GOTO :found
-TIMEOUT /T 1
+"%SystemRoot%\System32\timeout.exe" /T 1
 GOTO :search
 
 :found
-taskkill /F /IM EpicGamesLauncher.exe
-taskkill /F /IM EpicWebHelper.exe
+"%SystemRoot%\System32\taskkill.exe" /F /IM EpicGamesLauncher.exe
+"%SystemRoot%\System32\taskkill.exe" /F /IM EpicWebHelper.exe
 exit
